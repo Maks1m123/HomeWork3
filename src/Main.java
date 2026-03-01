@@ -17,7 +17,6 @@ public class Main {
         System.out.println("Значение переменной paper6 с типом double равно " + paper6);
 
         // Задание номер 2
-
         float cocaCola = 27.12F;
         long sprite = 987678965549L;
         double sky = 2.786;
@@ -25,7 +24,6 @@ public class Main {
         short moon = -159;
         short water = 27897;
         byte earth = 67;
-
         System.out.println("Спрайт " + sprite);
         System.out.println("Небо " + sky);
         System.out.println("Солнце " + sun);
