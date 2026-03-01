@@ -1,14 +1,14 @@
-import javax.imageio.stream.ImageOutputStream;
-
 public class Main {
     public static void main(String[] args) {
         // Задание номер 1
+
         int paper1 = 1235458464;
         byte paper2 = 115;
         short paper3 = 27987;
         long paper4 = 784213654887965654L;
         float paper5 = 7.2565F;
-        double paper6 = 5.21567F;
+        double paper6 = 5.21567;
+
         System.out.println("Значение переменной paper1 с типом int равно " + paper1);
         System.out.println("Значение переменной paper2 с типом byte равно " + paper2);
         System.out.println("Значение переменной paper3 с типом short равно " + paper3);
@@ -16,21 +16,35 @@ public class Main {
         System.out.println("Значение переменной paper5 с типом float равно " + paper5);
         System.out.println("Значение переменной paper6 с типом double равно " + paper6);
 
-        // Задание номер 2 !
-        float number1 = 27.12F;
-        long number2 = 987678965549L;
-        double number3 = 2.786;
-        short number4 = 569;
-        short number5 = -159;
-        short number6 = 27897;
-        byte number7 = 67;
-        // Задание номер 3 !
+        // Задание номер 2
+
+        float cocaCola = 27.12F;
+        long sprite = 987678965549L;
+        double sky = 2.786;
+        short sun = 569;
+        short moon = -159;
+        short water = 27897;
+        byte earth = 67;
+
+        System.out.println("Спрайт " + sprite);
+        System.out.println("Небо " + sky);
+        System.out.println("Солнце " + sun);
+        System.out.println("Луна " + moon);
+        System.out.println("Вода " + water);
+        System.out.println("Земля " + earth);
+        System.out.println("Кока Кола " + cocaCola);
+
+
+        // Задание номер 3
+
         byte class1 = 23;
         byte class2 = 27;
         byte class3 = 30;
         short paper = 480;
         System.out.println("На каждого ученика рассчитано " + paper / (class1 + class2 + class3) + " листов бумаги!");
+
         // Задание номер 4
+
         byte bottle1min = 16 / 2;
         byte minute = 20;
         System.out.println("За 20 минут будет произведенно " + bottle1min * minute + " бутылок!");
@@ -40,14 +54,20 @@ public class Main {
         System.out.println("За три дня будет произведенно " + threeDays * bottle1min + " бутылок!");
         int month = (30 * 24) * 60;
         System.out.println("За один месяц будет произведенно " + month * bottle1min + " бутылок!");
+
+
         // Задание номер 5
+
         byte paintsCans = 120;
-        byte classes = 120 / 6;
+        int classes = paintsCans / 6;
         byte whitePaints = 2;
         byte greyPaints = 4;
         System.out.println("В школе где " + classes + " классов,нужно " + classes * whitePaints +
                 " белой краски и " + classes * greyPaints + " банок коричневой краски!");
+
+
         // Задание номер 6
+
         int bananasWeight = 80;
         int bananasCount = 5;
         int totalWeightBananas = bananasWeight * bananasCount;
@@ -84,6 +104,7 @@ public class Main {
         System.out.println("Что бы добится результата в среднем спортсмену нужно " + days3 + " дней!");
 
         // Задание номер 8
+
         int salaryMasha = 67_760;
         int salaryDenis = 83_690;
         int salaryKristina = 76_230;
